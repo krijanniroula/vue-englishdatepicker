@@ -82,11 +82,11 @@ This works exactly as class properties. Eg: classValue="form-control" (boostrap 
 
 ## Examples - format
 
-It uses format type as per following documentation:
+It uses moment js format :
 
 <p align="center">
   <a href="https://momentjs.com/docs/">
-  <h2>View Docs</h2>
+  <h2>Moment Js Docs</h2>
   </a>
 </p>
 
