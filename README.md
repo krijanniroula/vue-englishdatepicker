@@ -4,7 +4,7 @@
 
 # Demo:
 
-![demo1](https://github.com/krijanniroula/vue-datepicker/blob/master/assets/demo1.PNG)
+![demo1](https://github.com/krijanniroula/vue-englishdatepicker/blob/master/assets/demo1.PNG)
 
 ## Install
 
