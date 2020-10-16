@@ -82,7 +82,7 @@ This works exactly as class properties. Eg: classValue="form-control" (boostrap 
 
 ## Examples - format
 
-It uses moment js format :
+It uses moment js API. Read the moment js documentation for the format. Same format style will be applied to the datepicker.
 
 <p align="center">
   <a href="https://momentjs.com/docs/">
