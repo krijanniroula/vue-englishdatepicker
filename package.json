@@ -28,7 +28,9 @@
     "vue datepicker",
     "datepicker vuejs"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
