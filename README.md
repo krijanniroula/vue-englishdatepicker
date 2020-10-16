@@ -15,10 +15,25 @@ npm install vue-englishdatepicker
 ## Quick Start
 
 ```javascript
-import Vue from "vue";
-import VueEnglishdatepicker from "vue-englishdatepicker";
 
-Vue.use(VueEnglishdatepicker);
+import VueEnglishdatepicker from 'vue-englishdatepicker';
+ 
+export default {
+  components: {
+    VueEnglishdatepicker,
+  },
+  // rest of the component
+}
+ 
+Or even used via <script> tag in the browser directly:
+ 
+<script src="https://unpkg.com/vue"></script>
+<script src="https://unpkg.com/vue-englishdatepicker"></script>
+...
+<vue-englishdatepicker />
+...
+
+
 ```
 
 ## Examples
