@@ -1,6 +1,6 @@
 {
   "name": "vue-englishdatepicker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Date Picker component for Vue js",
   "main": "dist/vue-englishdatepicker.ssr.js",
   "browser": "dist/vue-englishdatepicker.esm.js",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/krijanniroula/vue-datepicker.git"
+    "url": "git+https://github.com/krijanniroula/vue-englishdatepicker.git"
   },
   "keywords": [
     "datepicker",
@@ -57,7 +57,7 @@
   "author": "Krijan Niroula",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/krijanniroula/vue-datepicker/issues"
+    "url": "https://github.com/krijanniroula/vue-englishdatepicker/issues"
   },
-  "homepage": "https://github.com/krijanniroula/vue-datepicker#readme"
+  "homepage": "https://github.com/krijanniroula/vue-englishdatepicker#readme"
 }

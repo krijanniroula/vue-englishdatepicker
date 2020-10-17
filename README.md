@@ -10,6 +10,10 @@ https://codesandbox.io/s/eager-rubin-5zcm9
 
 ```shell
 npm install vue-englishdatepicker
+
+OR
+
+yarn add vue-englishdatepicker
 ```
 
 ## Quick Start
