@@ -15,10 +15,25 @@ npm install vue-englishdatepicker
 ## Quick Start
 
 ```javascript
-import Vue from "vue";
-import VueEnglishdatepicker from "vue-englishdatepicker";
 
-Vue.use(VueEnglishdatepicker);
+import VueEnglishdatepicker from 'vue-englishdatepicker';
+ 
+export default {
+  components: {
+    VueEnglishdatepicker,
+  },
+  // rest of the component
+}
+ 
+Or even used via <script> tag in the browser directly:
+ 
+<script src="https://unpkg.com/vue"></script>
+<script src="https://unpkg.com/vue-englishdatepicker"></script>
+...
+<vue-englishdatepicker />
+...
+
+
 ```
 
 ## Examples
@@ -67,11 +82,11 @@ This works exactly as class properties. Eg: classValue="form-control" (boostrap 
 
 ## Examples - format
 
-It uses format type as per following documentation:
+It uses moment js API. Read the moment js documentation for the format. Same format style will be applied to the datepicker.
 
 <p align="center">
-  <a href="https://momentjs.com/docs/">
-  <h2>View Docs</h2>
+  <a href="https://momentjs.com/docs/#/displaying/format/">
+  <h2>Moment Js format Docs</h2>
   </a>
 </p>
 
