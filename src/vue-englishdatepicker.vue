@@ -134,13 +134,19 @@ export default {
       return moment.weekdaysMin();
     },
     days() {
-      const endDay = this.date.clone().endOf("month").date();
+      const endDay = this.date
+        .clone()
+        .endOf("month")
+        .date();
       return Array(endDay)
         .fill()
         .map((_, idx) => moment([this.year, this.date.month(), idx + 1]));
     },
     startweek() {
-      return this.date.clone().startOf("month").day();
+      return this.date
+        .clone()
+        .startOf("month")
+        .day();
     },
     formatedYear() {
       return this.date.format("YYYY");
@@ -208,10 +214,8 @@ export default {
       document.removeEventListener("click", this.hide);
     },
     today() {
-      this.formatedValue = moment().format(this.format);
-      this.date = moment(this.formatedValue);
+      this.select(moment());
       this.setMonthAndYear(this.date.month(), this.date.year());
-      this.hide();
     },
     checkToday(date) {
       let today = moment();

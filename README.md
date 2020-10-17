@@ -2,9 +2,9 @@
 
 > An easy-to-use and customizable date picker component powered by Vue js
 
-# Demo:
+# Demo:s
 
-![demo1](https://github.com/krijanniroula/vue-englishdatepicker/blob/master/assets/demo1.PNG)
+https://codesandbox.io/s/eager-rubin-5zcm9
 
 ## Install
 
